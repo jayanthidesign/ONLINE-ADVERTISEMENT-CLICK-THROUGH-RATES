@@ -12,27 +12,7 @@ Source Description and Timeline: Mendeley Data and 2024.
 
 Domain: Digital Marketing Analytics/Online Advertising/User Behavior.
 
-# Problem Statement 
 
-To determine how variables such as age and gender impact the likelihood of a user clicking on an Ad, enabling marketers to better target their audience.
-
-To identify which placement locations, yield higher clicks and CTR, allowing advertisers to allocate resources effectively for maximum impact.
-
-To analyze patterns in the data to recommend which type ads should be shown to which type of user. 
-
-# Attribute (Column /Features) Details:  
-
-| Attribute Name | Data Type | Description |
-|----------------|-----------|-------------|
-|Age | Numeric | Age of the user|
-|Gender | Categorical / String | Male, Female, Other|
-|Location | Categorical / String | Rural, Urban, Suburban|
-|Ad Type | Categorical / String | Native, Video, Text, Banner|
-|Ad Topic | Categorical / String | Food, Finance, Fashion, Health, Travel|
-|Ad Placement | Categorical / String | Search Engine, social media, Website|
-|Clicks |Numeric | Number of clicks received|
-|CTR | Numeric | Click-through rate% |
-|Impression | Numeric | The total number of times the ad was shown|
 
 # Tools & Technologies
 
@@ -61,14 +41,7 @@ Pivot Tables: Generated Pivot Tables for data summarization and initial insights
 Data Model: This project uses a single-table dataset, so data model remains simple with no relationships. All measures and visuals are built from the same table.
 
 Calculated Columns & DAX Measures: Implemented DAX formulas for key metrics such as Total clicks, Total Impressions, Average CTR, Total conversion rate.
-Clicks = SUM (Dataset [Click])
 
-
-Impression = SUM (Dataset [Impression])
-
-Total Conversion Rate = SUM (Dataset [Conversion Rate])
-
-Average Click-Through Rate = Average (Dataset [CTR])
 
  # Insights & Conclusions
 
@@ -86,51 +59,6 @@ Highest clicks from 30–45 age group (191 clicks)
 
 Very low engagement from Above 65 (9 clicks)
 
-# Analysis insights:
-
-# Descriptive 
-
-The campaign has a healthy CTR of over 5%, with social media being the most effective placement. 
-
-Most clicks come from social media (17K), followed by Search Engine and Website (16K each).
-
-Male users (49.84%) generate the highest share of clicks, followed by Female users (39.65%)
-
-The highest conversions come from Male users aged 30–45.
-
-Age group 15–30 shows a higher conversion rate for Fashion-related ads.
-
-Age group 30–45 shows a higher conversion rate for Finance-related ads.
-
-# Diagnosis
-
-Users aged 30–45 typically have higher purchasing power, regular internet usage, and clearer intent compared to younger or older age groups.
-
-Social media ads are frequently displayed, and appear in users’ leisure browsing time, increasing the likelihood of clicks.
-
-# Predictive
-
-Future campaigns targeting working-age adults (15–45) will yield higher CTR.     
-
-Balanced gender-focused campaigns will sustain click volume, with potential growth from female users through tailored creatives. 
-
-Increasing budget allocation to social media is likely to increase total clicks.
-
-# Prescriptive
-
-This analysis provides recommendations based on insights.
-
-Focus ad spend on 30–45 age group.
-
-Increase campaigns in Finance, Travel, and Technology topics.
-
-Prioritize Social Media placements.
-
-Optimize ads for Male and Female segments separately.
-
-Reduce spending on Below 15 and Above 65 age groups.
-
-Test creative improvements for Health-related ads.
 
 # Conclusions 
 
